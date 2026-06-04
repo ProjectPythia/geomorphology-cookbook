@@ -12,3 +12,6 @@ dependencies:
   - geopandas
   - scipy
   - shapely
+# packages to aid in cookbook development
+  - jupyterlab-git
+  - vim
