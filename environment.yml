@@ -5,3 +5,12 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - pathlib
+  - numpy
+  - matplotlib
+  - mpl_toolkits
+  - rasterio
+  - geopandas
+  - scipy
+  - shapely
+  - datetime
