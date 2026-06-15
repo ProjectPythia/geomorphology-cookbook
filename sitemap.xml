@@ -8,6 +8,9 @@
     <loc>http://localhost:3000/notebooks/how-to-cite</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/seabed-morphology</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/notebook-template</loc>
   </url>
 </urlset>
