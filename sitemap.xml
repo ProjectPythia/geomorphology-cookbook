@@ -11,6 +11,9 @@
     <loc>http://localhost:3000/notebooks/seabed-morphology</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/rasterio-intro</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/datavisualization</loc>
   </url>
   <url>
