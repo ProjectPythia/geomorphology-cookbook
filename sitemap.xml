@@ -14,6 +14,9 @@
     <loc>http://localhost:3000/notebooks/metadata</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/datastory</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/rasterviz-intro</loc>
   </url>
   <url>
@@ -21,5 +24,8 @@
   </url>
   <url>
     <loc>http://localhost:3000/notebooks/polygonization</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/jupytergis-showcase</loc>
   </url>
 </urlset>
