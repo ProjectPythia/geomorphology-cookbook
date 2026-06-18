@@ -11,10 +11,10 @@
     <loc>http://localhost:3000/notebooks/seabed-morphology</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/metadata</loc>
+    <loc>http://localhost:3000/notebooks/datastory</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/datastory</loc>
+    <loc>http://localhost:3000/notebooks/metadata</loc>
   </url>
   <url>
     <loc>http://localhost:3000/notebooks/rasterviz-intro</loc>
