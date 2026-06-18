@@ -23,6 +23,9 @@
     <loc>http://localhost:3000/notebooks/openness-closeness-explainer</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/openness-closeness-computation</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/polygonization</loc>
   </url>
   <url>
