@@ -16,7 +16,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_5a27ea6ddf339efb2f6a96494f40de7d {
+                #map_91eb8a956ce73a7287090c968e84c88a {
                     position: relative;
                     width: 100.0vw;
                     height: 100.0vh;
@@ -258,14 +258,14 @@
 &lt;body&gt;
     
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_5a27ea6ddf339efb2f6a96494f40de7d&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_91eb8a956ce73a7287090c968e84c88a&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_5a27ea6ddf339efb2f6a96494f40de7d = L.map(
-                &quot;map_5a27ea6ddf339efb2f6a96494f40de7d&quot;,
+            var map_91eb8a956ce73a7287090c968e84c88a = L.map(
+                &quot;map_91eb8a956ce73a7287090c968e84c88a&quot;,
                 {
                     center: [-20.26394035076446, 133.3418515395377],
                     crs: L.CRS.EPSG3857,
@@ -282,7 +282,7 @@
 
         
     
-            var tile_layer_d3687b69c192b0998c52aeed738e5693 = L.tileLayer(
+            var tile_layer_e3b0cc5497276d9a872407731340d0e3 = L.tileLayer(
                 &quot;https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -299,17 +299,17 @@
             );
         
     
-            tile_layer_d3687b69c192b0998c52aeed738e5693.addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            tile_layer_e3b0cc5497276d9a872407731340d0e3.addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-        function geo_json_d2f2a6ce1bd8eb64c7097c7de540473a_styler(feature) {
+        function geo_json_b94071fc4650b4c97d6c4bda8ee0c398_styler(feature) {
             switch(feature.id) {
                 default:
                     return {&quot;fillOpacity&quot;: 0.2, &quot;weight&quot;: 2};
             }
         }
 
-        function geo_json_d2f2a6ce1bd8eb64c7097c7de540473a_onEachFeature(feature, layer) {
+        function geo_json_b94071fc4650b4c97d6c4bda8ee0c398_onEachFeature(feature, layer) {
             (function propagate(parent){
                 if (typeof parent.eachLayer !== &quot;function&quot;) {return;}
                 parent.eachLayer(function (child) {
@@ -321,23 +321,23 @@
             layer.on({
             });
         };
-        var geo_json_d2f2a6ce1bd8eb64c7097c7de540473a = L.geoJson(null, {
-                onEachFeature: geo_json_d2f2a6ce1bd8eb64c7097c7de540473a_onEachFeature,
+        var geo_json_b94071fc4650b4c97d6c4bda8ee0c398 = L.geoJson(null, {
+                onEachFeature: geo_json_b94071fc4650b4c97d6c4bda8ee0c398_onEachFeature,
             
-                style: geo_json_d2f2a6ce1bd8eb64c7097c7de540473a_styler,
+                style: geo_json_b94071fc4650b4c97d6c4bda8ee0c398_styler,
             ...{
 }
         });
 
-        function geo_json_d2f2a6ce1bd8eb64c7097c7de540473a_add (data) {
-            geo_json_d2f2a6ce1bd8eb64c7097c7de540473a
+        function geo_json_b94071fc4650b4c97d6c4bda8ee0c398_add (data) {
+            geo_json_b94071fc4650b4c97d6c4bda8ee0c398
                 .addData(data);
         }
-            geo_json_d2f2a6ce1bd8eb64c7097c7de540473a_add({&quot;bbox&quot;: [159.15529620564848, -26.87928885286035, 159.61591888879914, -26.501093962698366], &quot;features&quot;: [{&quot;bbox&quot;: [159.15529620564848, -26.87928885286035, 159.61591888879914, -26.501093962698366], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[159.61591888879914, -26.878032561934056], [159.61389600155903, -26.501093962698366], [159.15529620564848, -26.50232991315198], [159.155807968762, -26.87928885286035], [159.61591888879914, -26.878032561934056]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+            geo_json_b94071fc4650b4c97d6c4bda8ee0c398_add({&quot;bbox&quot;: [159.15529620564848, -26.87928885286035, 159.61591888879914, -26.501093962698366], &quot;features&quot;: [{&quot;bbox&quot;: [159.15529620564848, -26.87928885286035, 159.61591888879914, -26.501093962698366], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[159.61591888879914, -26.878032561934056], [159.61389600155903, -26.501093962698366], [159.15529620564848, -26.50232991315198], [159.155807968762, -26.87928885286035], [159.61591888879914, -26.878032561934056]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
 
         
     
-            geo_json_d2f2a6ce1bd8eb64c7097c7de540473a.bindTooltip(
+            geo_json_b94071fc4650b4c97d6c4bda8ee0c398.bindTooltip(
                 `&lt;div&gt;
                      Gifford Canyon raster footprint
                  &lt;/div&gt;`,
@@ -347,34 +347,34 @@
             );
         
     
-            geo_json_d2f2a6ce1bd8eb64c7097c7de540473a.addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            geo_json_b94071fc4650b4c97d6c4bda8ee0c398.addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-            var marker_821f727ed13a3e2023aa6257083efdd6 = L.marker(
+            var marker_d50de25c71057e33f569c44461888148 = L.marker(
                 [-26.690289667057385, 159.38522846433298],
                 {
 }
-            ).addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            ).addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-        var popup_d70ce80e0e83e8dd70cc5ead0dc120f1 = L.popup({
+        var popup_5e966802a6d6e83d321af2377b87b282 = L.popup({
   &quot;maxWidth&quot;: 450,
 });
 
         
             
-                var html_87211e8d8a2fdd25991ee81bad9ebdc5 = $(`&lt;div id=&quot;html_87211e8d8a2fdd25991ee81bad9ebdc5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;     &lt;b&gt;Gifford Canyon&lt;/b&gt;&lt;br&gt;     CRS: EPSG:32757&lt;br&gt;     Bounds: BoundingBox(left=515475.0, bottom=7026925.0, right=561175.0, top=7068675.0)&lt;br&gt;     Resolution: 50.00 m, 50.00 m&lt;br&gt;     Shape: (835, 914)&lt;br&gt;     Width × height: 914 × 835&lt;br&gt;     Bands: 1&lt;br&gt;     Data type: float32&lt;br&gt;     NoData: 3.3999999521443642e+38     &lt;/div&gt;`)[0];
-                popup_d70ce80e0e83e8dd70cc5ead0dc120f1.setContent(html_87211e8d8a2fdd25991ee81bad9ebdc5);
+                var html_4a55756e5ca77aa16b17d341526d8375 = $(`&lt;div id=&quot;html_4a55756e5ca77aa16b17d341526d8375&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;     &lt;b&gt;Gifford Canyon&lt;/b&gt;&lt;br&gt;     CRS: EPSG:32757&lt;br&gt;     Bounds: BoundingBox(left=515475.0, bottom=7026925.0, right=561175.0, top=7068675.0)&lt;br&gt;     Resolution: 50.00 m, 50.00 m&lt;br&gt;     Shape: (835, 914)&lt;br&gt;     Width × height: 914 × 835&lt;br&gt;     Bands: 1&lt;br&gt;     Data type: float32&lt;br&gt;     NoData: 3.3999999521443642e+38     &lt;/div&gt;`)[0];
+                popup_5e966802a6d6e83d321af2377b87b282.setContent(html_4a55756e5ca77aa16b17d341526d8375);
             
         
 
-        marker_821f727ed13a3e2023aa6257083efdd6.bindPopup(popup_d70ce80e0e83e8dd70cc5ead0dc120f1)
+        marker_d50de25c71057e33f569c44461888148.bindPopup(popup_5e966802a6d6e83d321af2377b87b282)
         ;
 
         
     
     
-            marker_821f727ed13a3e2023aa6257083efdd6.bindTooltip(
+            marker_d50de25c71057e33f569c44461888148.bindTooltip(
                 `&lt;div&gt;
                      Gifford Canyon
                  &lt;/div&gt;`,
@@ -384,14 +384,14 @@
             );
         
     
-        function geo_json_d95b495b5d11b53a61f08b042293c1ca_styler(feature) {
+        function geo_json_7c20be2d2cf8bfee56f6223abf9608ad_styler(feature) {
             switch(feature.id) {
                 default:
                     return {&quot;fillOpacity&quot;: 0.2, &quot;weight&quot;: 2};
             }
         }
 
-        function geo_json_d95b495b5d11b53a61f08b042293c1ca_onEachFeature(feature, layer) {
+        function geo_json_7c20be2d2cf8bfee56f6223abf9608ad_onEachFeature(feature, layer) {
             (function propagate(parent){
                 if (typeof parent.eachLayer !== &quot;function&quot;) {return;}
                 parent.eachLayer(function (child) {
@@ -403,23 +403,23 @@
             layer.on({
             });
         };
-        var geo_json_d95b495b5d11b53a61f08b042293c1ca = L.geoJson(null, {
-                onEachFeature: geo_json_d95b495b5d11b53a61f08b042293c1ca_onEachFeature,
+        var geo_json_7c20be2d2cf8bfee56f6223abf9608ad = L.geoJson(null, {
+                onEachFeature: geo_json_7c20be2d2cf8bfee56f6223abf9608ad_onEachFeature,
             
-                style: geo_json_d95b495b5d11b53a61f08b042293c1ca_styler,
+                style: geo_json_7c20be2d2cf8bfee56f6223abf9608ad_styler,
             ...{
 }
         });
 
-        function geo_json_d95b495b5d11b53a61f08b042293c1ca_add (data) {
-            geo_json_d95b495b5d11b53a61f08b042293c1ca
+        function geo_json_7c20be2d2cf8bfee56f6223abf9608ad_add (data) {
+            geo_json_7c20be2d2cf8bfee56f6223abf9608ad
                 .addData(data);
         }
-            geo_json_d95b495b5d11b53a61f08b042293c1ca_add({&quot;bbox&quot;: [126.99999142665641, -11.41325998452583, 127.04890403432447, -11.387407826453787], &quot;features&quot;: [{&quot;bbox&quot;: [126.99999142665641, -11.41325998452583, 127.04890403432447, -11.387407826453787], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[127.04872981768102, -11.41325998452583], [127.04890403432447, -11.38773529423489], [127.00016998785988, -11.387407826453787], [126.99999142665641, -11.41293176375184], [127.04872981768102, -11.41325998452583]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+            geo_json_7c20be2d2cf8bfee56f6223abf9608ad_add({&quot;bbox&quot;: [126.99999142665641, -11.41325998452583, 127.04890403432447, -11.387407826453787], &quot;features&quot;: [{&quot;bbox&quot;: [126.99999142665641, -11.41325998452583, 127.04890403432447, -11.387407826453787], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[127.04872981768102, -11.41325998452583], [127.04890403432447, -11.38773529423489], [127.00016998785988, -11.387407826453787], [126.99999142665641, -11.41293176375184], [127.04872981768102, -11.41325998452583]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
 
         
     
-            geo_json_d95b495b5d11b53a61f08b042293c1ca.bindTooltip(
+            geo_json_7c20be2d2cf8bfee56f6223abf9608ad.bindTooltip(
                 `&lt;div&gt;
                      Oceanic Shoals raster footprint
                  &lt;/div&gt;`,
@@ -429,34 +429,34 @@
             );
         
     
-            geo_json_d95b495b5d11b53a61f08b042293c1ca.addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            geo_json_7c20be2d2cf8bfee56f6223abf9608ad.addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-            var marker_4fe5ecaedd8d96e7a361f3f25666e15c = L.marker(
+            var marker_89603071ca55c8689f0af9ecc02c0276 = L.marker(
                 [-11.400333907846957, 127.02444893047692],
                 {
 }
-            ).addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            ).addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-        var popup_61ca1fe1fd5439c41704dba88ba48f83 = L.popup({
+        var popup_4b4ce92093c2d676030b348ec0b2ea70 = L.popup({
   &quot;maxWidth&quot;: 450,
 });
 
         
             
-                var html_3ebf6985d158ee569e81760a81cc843f = $(`&lt;div id=&quot;html_3ebf6985d158ee569e81760a81cc843f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;     &lt;b&gt;Oceanic Shoals&lt;/b&gt;&lt;br&gt;     CRS: EPSG:32752&lt;br&gt;     Bounds: BoundingBox(left=281780.0, bottom=8737608.0, right=287100.0, top=8740432.0)&lt;br&gt;     Resolution: 2.00 m, 2.00 m&lt;br&gt;     Shape: (1412, 2660)&lt;br&gt;     Width × height: 2660 × 1412&lt;br&gt;     Bands: 1&lt;br&gt;     Data type: float32&lt;br&gt;     NoData: 3.3999999521443642e+38     &lt;/div&gt;`)[0];
-                popup_61ca1fe1fd5439c41704dba88ba48f83.setContent(html_3ebf6985d158ee569e81760a81cc843f);
+                var html_d4287e386dfa2a851c726bf61929744d = $(`&lt;div id=&quot;html_d4287e386dfa2a851c726bf61929744d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;     &lt;b&gt;Oceanic Shoals&lt;/b&gt;&lt;br&gt;     CRS: EPSG:32752&lt;br&gt;     Bounds: BoundingBox(left=281780.0, bottom=8737608.0, right=287100.0, top=8740432.0)&lt;br&gt;     Resolution: 2.00 m, 2.00 m&lt;br&gt;     Shape: (1412, 2660)&lt;br&gt;     Width × height: 2660 × 1412&lt;br&gt;     Bands: 1&lt;br&gt;     Data type: float32&lt;br&gt;     NoData: 3.3999999521443642e+38     &lt;/div&gt;`)[0];
+                popup_4b4ce92093c2d676030b348ec0b2ea70.setContent(html_d4287e386dfa2a851c726bf61929744d);
             
         
 
-        marker_4fe5ecaedd8d96e7a361f3f25666e15c.bindPopup(popup_61ca1fe1fd5439c41704dba88ba48f83)
+        marker_89603071ca55c8689f0af9ecc02c0276.bindPopup(popup_4b4ce92093c2d676030b348ec0b2ea70)
         ;
 
         
     
     
-            marker_4fe5ecaedd8d96e7a361f3f25666e15c.bindTooltip(
+            marker_89603071ca55c8689f0af9ecc02c0276.bindTooltip(
                 `&lt;div&gt;
                      Oceanic Shoals
                  &lt;/div&gt;`,
@@ -466,14 +466,14 @@
             );
         
     
-        function geo_json_8164cc6ebb54ef69f00290dee0f446c4_styler(feature) {
+        function geo_json_d9194159bc0b16207c9e6466654a7658_styler(feature) {
             switch(feature.id) {
                 default:
                     return {&quot;fillOpacity&quot;: 0.2, &quot;weight&quot;: 2};
             }
         }
 
-        function geo_json_8164cc6ebb54ef69f00290dee0f446c4_onEachFeature(feature, layer) {
+        function geo_json_d9194159bc0b16207c9e6466654a7658_onEachFeature(feature, layer) {
             (function propagate(parent){
                 if (typeof parent.eachLayer !== &quot;function&quot;) {return;}
                 parent.eachLayer(function (child) {
@@ -485,23 +485,23 @@
             layer.on({
             });
         };
-        var geo_json_8164cc6ebb54ef69f00290dee0f446c4 = L.geoJson(null, {
-                onEachFeature: geo_json_8164cc6ebb54ef69f00290dee0f446c4_onEachFeature,
+        var geo_json_d9194159bc0b16207c9e6466654a7658 = L.geoJson(null, {
+                onEachFeature: geo_json_d9194159bc0b16207c9e6466654a7658_onEachFeature,
             
-                style: geo_json_8164cc6ebb54ef69f00290dee0f446c4_styler,
+                style: geo_json_d9194159bc0b16207c9e6466654a7658_styler,
             ...{
 }
         });
 
-        function geo_json_8164cc6ebb54ef69f00290dee0f446c4_add (data) {
-            geo_json_8164cc6ebb54ef69f00290dee0f446c4
+        function geo_json_d9194159bc0b16207c9e6466654a7658_add (data) {
+            geo_json_d9194159bc0b16207c9e6466654a7658
                 .addData(data);
         }
-            geo_json_8164cc6ebb54ef69f00290dee0f446c4_add({&quot;bbox&quot;: [113.58661966228203, -22.728360751009717, 113.64514621700218, -22.67403197701755], &quot;features&quot;: [{&quot;bbox&quot;: [113.58661966228203, -22.728360751009717, 113.64514621700218, -22.67403197701755], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[113.64514621700218, -22.727418659465393], [113.64412052317066, -22.67403197701755], [113.58661966228203, -22.674971614500215], [113.58762311202818, -22.728360751009717], [113.64514621700218, -22.727418659465393]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+            geo_json_d9194159bc0b16207c9e6466654a7658_add({&quot;bbox&quot;: [113.58661966228203, -22.728360751009717, 113.64514621700218, -22.67403197701755], &quot;features&quot;: [{&quot;bbox&quot;: [113.58661966228203, -22.728360751009717, 113.64514621700218, -22.67403197701755], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[113.64514621700218, -22.727418659465393], [113.64412052317066, -22.67403197701755], [113.58661966228203, -22.674971614500215], [113.58762311202818, -22.728360751009717], [113.64514621700218, -22.727418659465393]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
 
         
     
-            geo_json_8164cc6ebb54ef69f00290dee0f446c4.bindTooltip(
+            geo_json_d9194159bc0b16207c9e6466654a7658.bindTooltip(
                 `&lt;div&gt;
                      Point Cloates raster footprint
                  &lt;/div&gt;`,
@@ -511,34 +511,34 @@
             );
         
     
-            geo_json_8164cc6ebb54ef69f00290dee0f446c4.addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            geo_json_d9194159bc0b16207c9e6466654a7658.addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-            var marker_321728850677f4e21b37a7640db80995 = L.marker(
+            var marker_7083e81a9fdf4810bcfa1b535462904d = L.marker(
                 [-22.70119747738904, 113.6158772238032],
                 {
 }
-            ).addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            ).addTo(map_91eb8a956ce73a7287090c968e84c88a);
         
     
-        var popup_a743d49ca65d9eebf06dbb6674269af1 = L.popup({
+        var popup_45e973f4c45d10066a0a4863e2b81c9b = L.popup({
   &quot;maxWidth&quot;: 450,
 });
 
         
             
-                var html_dcb0bf391e45a09da89509f65e22c3a3 = $(`&lt;div id=&quot;html_dcb0bf391e45a09da89509f65e22c3a3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;     &lt;b&gt;Point Cloates&lt;/b&gt;&lt;br&gt;     CRS: EPSG:32749&lt;br&gt;     Bounds: BoundingBox(left=765775.04, bottom=7484230.26, right=771688.04, top=7490146.26)&lt;br&gt;     Resolution: 3.00 m, 3.00 m&lt;br&gt;     Shape: (1972, 1971)&lt;br&gt;     Width × height: 1971 × 1972&lt;br&gt;     Bands: 1&lt;br&gt;     Data type: float32&lt;br&gt;     NoData: 3.3999999521443642e+38     &lt;/div&gt;`)[0];
-                popup_a743d49ca65d9eebf06dbb6674269af1.setContent(html_dcb0bf391e45a09da89509f65e22c3a3);
+                var html_f1e4c4decc44f21849efd179efc1a499 = $(`&lt;div id=&quot;html_f1e4c4decc44f21849efd179efc1a499&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;     &lt;b&gt;Point Cloates&lt;/b&gt;&lt;br&gt;     CRS: EPSG:32749&lt;br&gt;     Bounds: BoundingBox(left=765775.04, bottom=7484230.26, right=771688.04, top=7490146.26)&lt;br&gt;     Resolution: 3.00 m, 3.00 m&lt;br&gt;     Shape: (1972, 1971)&lt;br&gt;     Width × height: 1971 × 1972&lt;br&gt;     Bands: 1&lt;br&gt;     Data type: float32&lt;br&gt;     NoData: 3.3999999521443642e+38     &lt;/div&gt;`)[0];
+                popup_45e973f4c45d10066a0a4863e2b81c9b.setContent(html_f1e4c4decc44f21849efd179efc1a499);
             
         
 
-        marker_321728850677f4e21b37a7640db80995.bindPopup(popup_a743d49ca65d9eebf06dbb6674269af1)
+        marker_7083e81a9fdf4810bcfa1b535462904d.bindPopup(popup_45e973f4c45d10066a0a4863e2b81c9b)
         ;
 
         
     
     
-            marker_321728850677f4e21b37a7640db80995.bindTooltip(
+            marker_7083e81a9fdf4810bcfa1b535462904d.bindTooltip(
                 `&lt;div&gt;
                      Point Cloates
                  &lt;/div&gt;`,
@@ -548,25 +548,25 @@
             );
         
     
-            var layer_control_f203ef6abf0d809a6684b9d7107c7973_layers = {
+            var layer_control_7f6d918036455126a1680f17935e6106_layers = {
                 base_layers : {
-                    &quot;cartodbpositron&quot; : tile_layer_d3687b69c192b0998c52aeed738e5693,
+                    &quot;cartodbpositron&quot; : tile_layer_e3b0cc5497276d9a872407731340d0e3,
                 },
                 overlays :  {
-                    &quot;Gifford Canyon&quot; : geo_json_d2f2a6ce1bd8eb64c7097c7de540473a,
-                    &quot;Oceanic Shoals&quot; : geo_json_d95b495b5d11b53a61f08b042293c1ca,
-                    &quot;Point Cloates&quot; : geo_json_8164cc6ebb54ef69f00290dee0f446c4,
+                    &quot;Gifford Canyon&quot; : geo_json_b94071fc4650b4c97d6c4bda8ee0c398,
+                    &quot;Oceanic Shoals&quot; : geo_json_7c20be2d2cf8bfee56f6223abf9608ad,
+                    &quot;Point Cloates&quot; : geo_json_d9194159bc0b16207c9e6466654a7658,
                 },
             };
-            let layer_control_f203ef6abf0d809a6684b9d7107c7973 = L.control.layers(
-                layer_control_f203ef6abf0d809a6684b9d7107c7973_layers.base_layers,
-                layer_control_f203ef6abf0d809a6684b9d7107c7973_layers.overlays,
+            let layer_control_7f6d918036455126a1680f17935e6106 = L.control.layers(
+                layer_control_7f6d918036455126a1680f17935e6106_layers.base_layers,
+                layer_control_7f6d918036455126a1680f17935e6106_layers.overlays,
                 {
   &quot;position&quot;: &quot;topright&quot;,
   &quot;collapsed&quot;: true,
   &quot;autoZIndex&quot;: true,
 }
-            ).addTo(map_5a27ea6ddf339efb2f6a96494f40de7d);
+            ).addTo(map_91eb8a956ce73a7287090c968e84c88a);
 
         
 &lt;/script&gt;
